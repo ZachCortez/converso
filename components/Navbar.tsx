@@ -17,7 +17,7 @@ const Navbar = () => {
             </Link>
             <div className="flex items-center gap-8">
                 <NavItems />
-                <p>Sign In</p>
+                <Link href="/sign-in" className="btn-primary">Sign In</Link>
             </div>
         </nav>
     )
