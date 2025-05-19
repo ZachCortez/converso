@@ -132,5 +132,10 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
-<a href="https://ibb.co/35kyLPRC"><img src="https://i.ibb.co/mrSCMPNc/Screenshot-2025-05-19-110048.png" alt="Screenshot-2025-05-19-110048" width=auto ></a>
+<div align="center">
+  <a href="https://ibb.co/35kyLPRC">
+  <img src="https://i.ibb.co/mrSCMPNc/Screenshot-2025-05-19-110048.png"
+        alt="Screenshot-2025-05-19-110048"
+        border=0 >
+  </a>
+</div>
