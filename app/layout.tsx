@@ -9,8 +9,11 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-    title: "Converso",
+    title: "Converso | AI Teaching Platform",
     description: "Real-time AI Teaching Platform",
+    icons: {
+        icon: "/icons/logoConverso.ico"
+    }
 };
 
 export default function RootLayout({
@@ -21,7 +24,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={`${bricolage.variable} antialiased`}>
-        <Navbar />
+        <Navbar/>
         {children}
         </body>
         </html>
