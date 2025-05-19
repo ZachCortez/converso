@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function SignInPage() {
     const [email, setEmail] = useState("");
@@ -16,8 +17,8 @@ export default function SignInPage() {
     return (
         <main className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
             <div className="w-full max-w-md p-8 bg-white rounded-2xl shadow-xl">
-                <h1 className="text-3xl font-bold text-center mb-6">Sign In to Converso</h1>
 
+                <h1 className="text-3xl font-bold text-center mb-6">Sign In to Converso</h1>
                 <form onSubmit={handleSubmit} className="space-y-5">
                     <div>
                         <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
