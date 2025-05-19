@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/-Tailwind-00BCFF?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
   </div>
 </div>
-<h3 align="center">Converso– AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js, Supabase & Stripe</h3>
+<h3 align="center">Converso – AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js, Supabase & Stripe</h3>
 
    <div align="center">
      
