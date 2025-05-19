@@ -17,7 +17,12 @@ const Navbar = () => {
             </Link>
             <div className="flex items-center gap-8">
                 <NavItems />
-                <Link href="/sign-in" className="btn-primary">Sign In</Link>
+                <Link href="/sign-in" className="btn-primary">
+                    Sign In
+                </Link>
+                <Link href="/sign-up" className="btn-secondary">
+                    Sign Up
+                </Link>
             </div>
         </nav>
     )
