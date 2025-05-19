@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/-Tailwind-00BCFF?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
   </div>
 </div>
-<h3 align="center">Converso – AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js, Supabase & Stripe</h3>
+<h3 align="center">Converso– AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js, Supabase & Stripe</h3>
 
    <div align="center">
      
@@ -34,12 +34,12 @@ Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supab
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-* **[Clerk](https://jsm.dev/converso-clerk)** is a unified platform for authentication, user management, and billing. It offers embeddable UI components, flexible APIs, and admin dashboards for secure user management. Clerk also simplifies subscription management, allowing you to define plans, create pricing pages, and control access based on subscription tiers—all in one solution.
+* **[Clerk](https://clerk.com/docs)** is a unified platform for authentication, user management, and billing. It offers embeddable UI components, flexible APIs, and admin dashboards for secure user management. Clerk also simplifies subscription management, allowing you to define plans, create pricing pages, and control access based on subscription tiers—all in one solution.
 
 
 - **[Next.js](https://nextjs.org/)** is a powerful React framework that enables the development of fast, scalable web applications with features like server-side rendering, static site generation, and API routes for building full-stack applications.
 
-- **[Sentry](https://jsm.dev/converso-sentry)** is an error tracking and performance monitoring tool that helps developers fix bugs faster by providing real-time alerts, stack traces, and performance insights.
+- **[Sentry](https://docs.sentry.io/)** is an error tracking and performance monitoring tool that helps developers fix bugs faster by providing real-time alerts, stack traces, and performance insights.
 
 - **[shadcn/ui](https://ui.shadcn.com/)** is a customizable component library built on Radix UI and Tailwind CSS. It offers a modern, accessible design system with pre-built components that are easy to theme and extend, making it ideal for building polished UIs with minimal effort.
 
@@ -49,7 +49,7 @@ Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supab
 
 - **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
 
-* **[Vapi](https://jsm.dev/converso-vapi)** is a developer-centric voice AI platform that enables the creation of conversational voice agents with low-latency voice interactions, speech-to-text, and text-to-speech capabilities. It supports multilingual conversations, customizable voices, and seamless integration with various AI models and tools.
+* **[Vapi](https://docs.vapi.ai/quickstart)** is a developer-centric voice AI platform that enables the creation of conversational voice agents with low-latency voice interactions, speech-to-text, and text-to-speech capabilities. It supports multilingual conversations, customizable voices, and seamless integration with various AI models and tools.
 
 
 ## <a name="features">🔋 Features</a>
@@ -123,7 +123,7 @@ NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 ```
 
-Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: [Appwrite](https://jsm.dev/converso-appwrite), [Clerk](https://jsm.dev/converso-clerk), [Sentry](https://jsm.dev/converso-sentry), [Vapi](https://jsm.dev/converso-vapi).
+Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: [Appwrite](https://cloud.appwrite.io/), [Clerk](https://clerk.com/docs), [Sentry](https://docs.sentry.io/), [Vapi](https://vapi.ai/).
 
 **Running the Project**
 
@@ -132,5 +132,11 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
-<a href="https://ibb.co/35kyLPRC"><img src="https://i.ibb.co/mrSCMPNc/Screenshot-2025-05-19-110048.png" alt="Screenshot-2025-05-19-110048" width=auto ></a>
+<div align="center">
+  <a href="https://ibb.co/35kyLPRC">
+    <img
+      src="https://i.ibb.co/mrSCMPNc/Screenshot-2025-05-19-110048.png"
+      alt="Screenshot-2025-05-19-110048"
+      width=auto >
+  </a>
+</div>
