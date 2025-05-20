@@ -1,13 +1,19 @@
 
 <div align="center">
   <br />
-<a href="https://ibb.co/RkK14SJh"><img src="https://i.ibb.co/JwTNFdSx/Screenshot-2025-05-18-191659.png" alt="Screenshot-2025-05-18-191659" border="0"></a>
+<img src="https://i.ibb.co/JwTNFdSx/Screenshot-2025-05-18-191659.png" alt="Screenshot-2025-05-18-191659" border="0">
   <br />
 
   <div>
     <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="next.js" />
     <img src="https://img.shields.io/badge/Vapi-AI-green?style=for-the-badge" alt="Vapi" />
     <img src="https://img.shields.io/badge/-Tailwind-00BCFF?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/Zod-007ACC?style=for-the-badge&logoColor=white" alt="zod" />
+    <img src="https://img.shields.io/badge/Clerk-3B49DF?style=for-the-badge&logo=clerk&logoColor=white" alt="Clerk" />
+<img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" alt="Sentry" />
+<img src="https://img.shields.io/badge/ShadCN-000000?style=for-the-badge&logoColor=white" alt="ShadCN UI" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   </div>
 </div>
 <h3 align="center">Converso – AI-Powered LMS SaaS Platform with Voice Tutors, Built with Next.js, Supabase & Stripe</h3>
@@ -19,7 +25,7 @@
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Robot.webp" alt="Robot" width="25" height="25" /> [Introduction](#introduction)
+1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🚀 [Quick Start](#quick-start)
@@ -27,19 +33,21 @@
 
 
 
-## <a name="introduction"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Robot.webp" alt="Robot" width="25" height="25" /> Introduction</a>
+## <a name="introduction">🤖 Introduction</a>
 
 Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supabase, Clerk, and Stripe. Designed for real-time, interactive learning, Converso integrates Vapi to enable AI-powered voice agents that act as intelligent tutors across a wide range of topics. Users can securely authenticate, manage subscriptions, and engage in immersive, voice-driven tutoring sessions — all within a sleek, responsive UI.
 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-* **[Clerk](https://clerk.com/docs)** is a unified platform for authentication, user management, and billing. It offers embeddable UI components, flexible APIs, and admin dashboards for secure user management. Clerk also simplifies subscription management, allowing you to define plans, create pricing pages, and control access based on subscription tiers—all in one solution.
+* **[Clerk](https://jsm.dev/converso-clerk)** is a unified platform for authentication, user management, and billing. It offers embeddable UI components, flexible APIs, and admin dashboards for secure user management. Clerk also simplifies subscription management, allowing you to define plans, create pricing pages, and control access based on subscription tiers—all in one solution.
 
 
 - **[Next.js](https://nextjs.org/)** is a powerful React framework that enables the development of fast, scalable web applications with features like server-side rendering, static site generation, and API routes for building full-stack applications.
 
-- **[Sentry](https://docs.sentry.io/)** is an error tracking and performance monitoring tool that helps developers fix bugs faster by providing real-time alerts, stack traces, and performance insights.
+
+- **[Sentry](https://jsm.dev/converso-sentry)** is an error tracking and performance monitoring tool that helps developers fix bugs faster by providing real-time alerts, stack traces, and performance insights.
+
 
 - **[shadcn/ui](https://ui.shadcn.com/)** is a customizable component library built on Radix UI and Tailwind CSS. It offers a modern, accessible design system with pre-built components that are easy to theme and extend, making it ideal for building polished UIs with minimal effort.
 
@@ -49,7 +57,9 @@ Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supab
 
 - **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
 
-* **[Vapi](https://docs.vapi.ai/quickstart)** is a developer-centric voice AI platform that enables the creation of conversational voice agents with low-latency voice interactions, speech-to-text, and text-to-speech capabilities. It supports multilingual conversations, customizable voices, and seamless integration with various AI models and tools.
+* **[Vapi](https://jsm.dev/converso-vapi)** is a developer-centric voice AI platform that enables the creation of conversational voice agents with low-latency voice interactions, speech-to-text, and text-to-speech capabilities. It supports multilingual conversations, customizable voices, and seamless integration with various AI models and tools.
+
+- **[Zod](https://zod.dev/)** is a TypeScript-first schema validation library that provides a simple and expressive way to define and validate data structures. Zod ensures data integrity by catching errors early during development.
 
 
 ## <a name="features">🔋 Features</a>
@@ -123,7 +133,7 @@ NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 ```
 
-Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: [Appwrite](https://cloud.appwrite.io/), [Clerk](https://clerk.com/docs), [Sentry](https://docs.sentry.io/), [Vapi](https://vapi.ai/).
+Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: [Appwrite](https://jsm.dev/converso-appwrite), [Clerk](https://jsm.dev/converso-clerk), [Sentry](https://jsm.dev/converso-sentry), [Vapi](https://jsm.dev/converso-vapi).
 
 **Running the Project**
 
@@ -132,11 +142,5 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-<div align="center">
-  <a href="https://ibb.co/35kyLPRC">
-    <img
-      src="https://i.ibb.co/mrSCMPNc/Screenshot-2025-05-19-110048.png"
-      alt="Screenshot-2025-05-19-110048"
-      width=auto >
-  </a>
-</div>
+
+<a href="https://ibb.co/35kyLPRC"><img src="https://i.ibb.co/mrSCMPNc/Screenshot-2025-05-19-110048.png" alt="Screenshot-2025-05-19-110048" width=auto ></a>

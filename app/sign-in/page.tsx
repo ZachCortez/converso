@@ -37,7 +37,7 @@ export default function SignInPage() {
 
     return (
         <main className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
-            <div className="w-full max-w-md p-8 bg-white rounded-2xl shadow-xl">
+            <div className="w-full max-w-md p-8 bg- rounded-2xl shadow-xl">
 
                 {/* Animated Heading */}
                 <h1 className="text-3xl font-bold text-center mb-6 flex justify-center items-center gap-2">
