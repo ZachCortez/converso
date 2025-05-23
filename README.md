@@ -133,7 +133,7 @@ NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 ```
 
-Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: **[Supabase](https://supabase.com/)** , **[Clerk](https://clerk.com/)**, **[Sentry](https://docs.sentry.io/)**, **[Vapi](https://vapi.ai/)**.
+Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: **[Supabase](https://supabase.com/)** , **[Clerk](https://clerk.com/)**, **[Sentry](https://docs.sentry.io/)**, and **[Vapi](https://vapi.ai/)**.
 
 **Running the Project**
 
