@@ -76,6 +76,7 @@ const CompanionComponent = ({ companionId, subject, topic, name, userName, userI
         setIsMuted(!isMuted)
     }
 
+    // @ts-ignore
     const handleCall = async () => {
         setCallStatus(CallStatus.CONNECTING)
 
@@ -86,6 +87,7 @@ const CompanionComponent = ({ companionId, subject, topic, name, userName, userI
         }
 
         // @ts-expect-error
+
         vapi.start(configureAssistant(voice, style), assistantOverrides)
     }
 
