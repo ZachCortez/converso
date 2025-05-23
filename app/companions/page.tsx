@@ -1,41 +1,36 @@
+import {getAllCompanions} from "@/lib/actions/companion.actions";
 import CompanionCard from "@/components/CompanionCard";
+import {getSubjectColor} from "@/lib/utils";
+import SearchInput from "@/components/SearchInput";
+import SubjectFilter from "@/components/SubjectFilter";
 
-const mockCompanions = [
-    {
-        id: "math-1",
-        name: "Math Mentor Mia",
-        topic: "Algebra Fundamentals",
-        subject: "Math",
-        duration: 20,
-        color: "#FEE2E2"
-    },
-    {
-        id: "sci-2",
-        name: "Science Sam",
-        topic: "Photosynthesis Simplified",
-        subject: "Science",
-        duration: 15,
-        color: "#D1FAE5"
-    },
-    {
-        id: "eng-3",
-        name: "English Ellie",
-        topic: "Essay Writing Essentials",
-        subject: "English",
-        duration: 25,
-        color: "#DBEAFE"
-    }
-];
+const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
+    const filters = await searchParams;
+    const subject = filters.subject ? filters.subject : '';
+    const topic = filters.topic ? filters.topic : '';
 
-export default function CompanionsLibrary() {
+    const companions = await getAllCompanions({ subject, topic });
+
     return (
-        <main className="max-w-6xl mx-auto px-4 py-8">
-            <h1 className="text-4xl font-bold mb-6">Your AI Companions</h1>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                {mockCompanions.map((companion) => (
-                    <CompanionCard key={companion.id} {...companion} />
+        <main>
+            <section className="flex justify-between gap-4 max-sm:flex-col">
+                <h1>Companion Library</h1>
+                <div className="flex gap-4">
+                    <SearchInput />
+                    <SubjectFilter />
+                </div>
+            </section>
+            <section className="companions-grid">
+                {companions.map((companion) => (
+                    <CompanionCard
+                        key={companion.id}
+                        {...companion}
+                        color={getSubjectColor(companion.subject)}
+                    />
                 ))}
-            </div>
+            </section>
         </main>
-    );
+    )
 }
+
+export default CompanionsLibrary
