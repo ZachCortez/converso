@@ -23,22 +23,22 @@
     
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Clipboard" width="25" height="25" /> <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🚀 [Quick Start](#quick-start)
-
-
+1. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Robot.webp" alt="Robot" width="25" height="25" />[Introduction](#introduction)
+2. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="25" height="25" />[Tech Stack](#tech-stack)
+3. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Battery.png" alt="Battery" width="25" height="25" />[Features](#features)
+4. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />[Quick Start](#quick-start)
 
 
-## <a name="introduction">🤖 Introduction</a>
+
+
+## <a name="introduction"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Smileys/Robot.webp" alt="Robot" width="25" height="25" /> Introduction</a>
 
 Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supabase, Clerk, and Stripe. Designed for real-time, interactive learning, Converso integrates Vapi to enable AI-powered voice agents that act as intelligent tutors across a wide range of topics. Users can securely authenticate, manage subscriptions, and engage in immersive, voice-driven tutoring sessions — all within a sleek, responsive UI.
 
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="25" height="25" /> Tech Stack</a>
 
 * **[Clerk](https://clerk.com/)** is a unified platform for authentication, user management, and billing. It offers embeddable UI components, flexible APIs, and admin dashboards for secure user management. Clerk also simplifies subscription management, allowing you to define plans, create pricing pages, and control access based on subscription tiers—all in one solution.
 
@@ -62,35 +62,35 @@ Converso is a next-gen LMS SaaS platform built from scratch using Next.js, Supab
 - **[Zod](https://zod.dev/)** is a TypeScript-first schema validation library that provides a simple and expressive way to define and validate data structures. Zod ensures data integrity by catching errors early during development.
 
 
-## <a name="features">🔋 Features</a>
+## <a name="features"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Battery.png" alt="Battery" width="25" height="25" /> Features</a>
 
-👉 **AI Voice Agents**: Take tutoring sessions with voiced AIs specializing in the topics you want to get better at.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**AI Voice Agents**: Take tutoring sessions with voiced AIs specializing in the topics you want to get better at.
 
-👉 **Authentication**: Secure user sign-up and sign-in with Clerk; Google authentication and many more.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Authentication**: Secure user sign-up and sign-in with Clerk; Google authentication and many more.
 
-👉 **Billing & Subscriptions**: Easily manage plans, upgrades, and payment details.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Billing & Subscriptions**: Easily manage plans, upgrades, and payment details.
 
-👉 **Bookmarks and Session History**: Let users organise their learning by bookmarking tutors and accessing previous sessions.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Bookmarks and Session History**: Let users organise their learning by bookmarking tutors and accessing previous sessions.
 
-👉 **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
 
-👉 **Create a Tutor**: Create your own AI tutors, choosing a subject, topic, and style of conversation.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Create a Tutor**: Create your own AI tutors, choosing a subject, topic, and style of conversation.
 
-👉 **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
 
-👉 **Database Integration**: Uses Supabase for real-time data handling and storage needs.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Database Integration**: Uses Supabase for real-time data handling and storage needs.
 
-👉 **Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
 
-👉 **Scalable Tech Stack**: Built with Next.js for a fast, production-ready web application that scales seamlessly.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Scalable Tech Stack**: Built with Next.js for a fast, production-ready web application that scales seamlessly.
 
-👉 **Search Functionality**: Find tutors quickly with robust filters and search bar.
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right.png" alt="Backhand Index Pointing Right" width="15" height="15" />**Search Functionality**: Find tutors quickly with robust filters and search bar.
 
 
 And many more, including enhanced security and optimized video performance!
 
 
-## <a name="quick-start">🚀 Quick Start</a>
+## <a name="quick-start"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
